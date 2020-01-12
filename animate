@@ -1,0 +1,10 @@
+@keyframes jello{10%,from,to{transform:translate3d(0,0,0);}25%{transform:skewX(-6.5deg) skewY(-6.5deg);}50%{transform:skewX(3.5deg) skewY(3.5deg);}90%{transform:skewX(-.5deg) skewY(-.5deg);}}
+@keyframes wobble{from{transform:translate3d(0,0,0);}25%{transform:translate3d(-10%,0,0) rotate3d(0,0,1,-3deg);}50%{transform:translate3d(5%,0,0) rotate3d(0,0,1,2deg);}75%{transform:translate3d(-2%,0,0) rotate3d(0,0,1,-1deg);}to{transform:translate3d(0,0,0);}}
+@keyframes tada{from{-webkit-transform:scale3d(1,1,1);transform:scale3d(1,1,1);}20%{transform:scale3d(.9,.9,.9) rotate3d(0,0,1,-3deg);}30%,50%{transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,3deg);}40%,60%{transform:scale3d(1.1,1.1,1.1) rotate3d(0,0,1,-3deg);}to{transform:scale3d(1,1,1);}}
+@keyframes swing{20%{transform:rotate3d(0,0,1,15deg);}40%{transform:rotate3d(0,0,1,-10deg);}60%{transform:rotate3d(0,0,1,5deg);}80%{transform:rotate3d(0,0,1,-5deg);}to{transform:rotate3d(0,0,1,0deg);}}
+@keyframes shake{from,to{transform:translate3d(0,0,0);}20%,60%{transform:translate3d(-10px,0,0);}40%,80%{transform:translate3d(10px,0,0);}}
+@keyframes rubberBand{from{transform:scale3d(1,1,1);}30%{transform:scale3d(1.25,.75,1);}40%{transform:scale3d(.75,1.25,1);}50%{transform:scale3d(1.15,.85,1);}65%{transform:scale3d(.95,1.05,1);}75%{transform:scale3d(1.05,.95,1);}to{transform:scale3d(1,1,1);}}
+@keyframes heart{0%{transform:scale(1);}14%{transform:scale(1.1);}28%{transform:scale(.9);}42%{transform:scale(1.1);}70%{transform:scale(.9);}}
+
+/*kalp atışı*/
+@keyframes fa-heart {to {transform: scale(1.1)} from {transform: scale(1.3)}}
