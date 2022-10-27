@@ -1,2 +1,2 @@
-# tr25
+# TR25
 Blogger
